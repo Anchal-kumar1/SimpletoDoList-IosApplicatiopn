@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7561D7432A2DB02E000C1679 /* ToDoList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561D7412A2DB02E000C1679 /* ToDoList+CoreDataClass.swift */; };
+		7561D7442A2DB02F000C1679 /* ToDoList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561D7422A2DB02E000C1679 /* ToDoList+CoreDataProperties.swift */; };
+		7561D74A2A2DB441000C1679 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561D7492A2DB441000C1679 /* Persistence.swift */; };
+		7561D74C2A2DD9C6000C1679 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561D74B2A2DD9C6000C1679 /* NoteViewController.swift */; };
 		75D58FAD2A2CB240009DCEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FAC2A2CB240009DCEF0 /* AppDelegate.swift */; };
 		75D58FAF2A2CB240009DCEF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FAE2A2CB240009DCEF0 /* SceneDelegate.swift */; };
-		75D58FB12A2CB240009DCEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FB02A2CB240009DCEF0 /* ViewController.swift */; };
 		75D58FB42A2CB240009DCEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D58FB22A2CB240009DCEF0 /* Main.storyboard */; };
 		75D58FB72A2CB240009DCEF0 /* DemotodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FB52A2CB240009DCEF0 /* DemotodoList.xcdatamodeld */; };
 		75D58FB92A2CB243009DCEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D58FB82A2CB243009DCEF0 /* Assets.xcassets */; };
@@ -17,6 +20,7 @@
 		75D58FC72A2CB243009DCEF0 /* DemotodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FC62A2CB243009DCEF0 /* DemotodoListTests.swift */; };
 		75D58FD12A2CB243009DCEF0 /* DemotodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FD02A2CB243009DCEF0 /* DemotodoListUITests.swift */; };
 		75D58FD32A2CB243009DCEF0 /* DemotodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58FD22A2CB243009DCEF0 /* DemotodoListUITestsLaunchTests.swift */; };
+		75EBCA032A38B46500BF10F3 /* SplashVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EBCA022A38B46500BF10F3 /* SplashVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7561D7412A2DB02E000C1679 /* ToDoList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7561D7422A2DB02E000C1679 /* ToDoList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7561D7492A2DB441000C1679 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7561D74B2A2DD9C6000C1679 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		75D58FA92A2CB240009DCEF0 /* DemotodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemotodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D58FAC2A2CB240009DCEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D58FAE2A2CB240009DCEF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75D58FB02A2CB240009DCEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75D58FB32A2CB240009DCEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75D58FB62A2CB240009DCEF0 /* DemotodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemotodoList.xcdatamodel; sourceTree = "<group>"; };
-		75D58FB82A2CB243009DCEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D58FB82A2CB243009DCEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DemotodoList/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		75D58FBB2A2CB243009DCEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D58FBD2A2CB243009DCEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D58FC22A2CB243009DCEF0 /* DemotodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemotodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +58,7 @@
 		75D58FCC2A2CB243009DCEF0 /* DemotodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemotodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D58FD02A2CB243009DCEF0 /* DemotodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemotodoListUITests.swift; sourceTree = "<group>"; };
 		75D58FD22A2CB243009DCEF0 /* DemotodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemotodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75EBCA022A38B46500BF10F3 /* SplashVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashVc.swift; path = DemotodoList/Controller/SplashVc.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +86,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7561D7452A2DB055000C1679 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				75D58FAC2A2CB240009DCEF0 /* AppDelegate.swift */,
+				75D58FAE2A2CB240009DCEF0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7561D7462A2DB073000C1679 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7561D7482A2DB40D000C1679 /* Persistence */,
+				7561D74B2A2DD9C6000C1679 /* NoteViewController.swift */,
+				75EBCA022A38B46500BF10F3 /* SplashVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7561D7472A2DB090000C1679 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75D58FB22A2CB240009DCEF0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7561D7482A2DB40D000C1679 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				7561D7492A2DB441000C1679 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		75D58FA02A2CB240009DCEF0 = {
 			isa = PBXGroup;
 			children = (
+				7561D7412A2DB02E000C1679 /* ToDoList+CoreDataClass.swift */,
+				7561D7422A2DB02E000C1679 /* ToDoList+CoreDataProperties.swift */,
 				75D58FAB2A2CB240009DCEF0 /* DemotodoList */,
 				75D58FC52A2CB243009DCEF0 /* DemotodoListTests */,
 				75D58FCF2A2CB243009DCEF0 /* DemotodoListUITests */,
@@ -101,10 +146,9 @@
 		75D58FAB2A2CB240009DCEF0 /* DemotodoList */ = {
 			isa = PBXGroup;
 			children = (
-				75D58FAC2A2CB240009DCEF0 /* AppDelegate.swift */,
-				75D58FAE2A2CB240009DCEF0 /* SceneDelegate.swift */,
-				75D58FB02A2CB240009DCEF0 /* ViewController.swift */,
-				75D58FB22A2CB240009DCEF0 /* Main.storyboard */,
+				7561D7452A2DB055000C1679 /* Delegates */,
+				7561D7462A2DB073000C1679 /* Controller */,
+				7561D7472A2DB090000C1679 /* View */,
 				75D58FB82A2CB243009DCEF0 /* Assets.xcassets */,
 				75D58FBA2A2CB243009DCEF0 /* LaunchScreen.storyboard */,
 				75D58FBD2A2CB243009DCEF0 /* Info.plist */,
@@ -261,10 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7561D74C2A2DD9C6000C1679 /* NoteViewController.swift in Sources */,
 				75D58FB72A2CB240009DCEF0 /* DemotodoList.xcdatamodeld in Sources */,
-				75D58FB12A2CB240009DCEF0 /* ViewController.swift in Sources */,
+				7561D7432A2DB02E000C1679 /* ToDoList+CoreDataClass.swift in Sources */,
+				7561D74A2A2DB441000C1679 /* Persistence.swift in Sources */,
 				75D58FAD2A2CB240009DCEF0 /* AppDelegate.swift in Sources */,
+				75EBCA032A38B46500BF10F3 /* SplashVc.swift in Sources */,
 				75D58FAF2A2CB240009DCEF0 /* SceneDelegate.swift in Sources */,
+				7561D7442A2DB02F000C1679 /* ToDoList+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
